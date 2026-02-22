@@ -224,7 +224,7 @@ class AsyncConverter(BaseConverter[AsyncStructuredNode, AsyncRelationshipManager
             return result  # type: ignore[return-value]
 
         data = self._extract_ogm_properties(ogm_instance, resolved)
-        pydantic_instance = resolved.model_construct(**data)
+        pydantic_instance = resolved.model_validate(data)
         processed[element_id] = pydantic_instance
 
         path.add(element_id)
