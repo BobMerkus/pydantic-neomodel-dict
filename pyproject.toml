@@ -25,7 +25,7 @@ classifiers = [
 keywords = ["pydantic", "neomodel", "neo4j", "orm", "converter", "ogm"]
 dependencies = [
     "pydantic>=2.0.0",
-    "neomodel>=5.0.0",
+    "neomodel>=6.0.0",
 ]
 requires-python = ">=3.10,<3.13"
 

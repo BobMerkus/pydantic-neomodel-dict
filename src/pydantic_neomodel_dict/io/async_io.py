@@ -2,7 +2,7 @@ from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 from typing import Any
 
-from neomodel.async_.core import AsyncStructuredNode, adb
+from neomodel.async_.node import AsyncStructuredNode, adb
 from neomodel.async_.relationship_manager import AsyncRelationshipManager
 from neomodel.exceptions import CardinalityViolation
 
