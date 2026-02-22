@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import Any, Callable, Dict, Generic, List, Optional, Set, Tuple, Type, TypeVar, Union, get_args, get_origin
 
 from neomodel import RelationshipManager, StructuredNode
-from neomodel.async_.core import AsyncStructuredNode
+from neomodel.async_.node import AsyncStructuredNode
 from neomodel.async_.relationship_manager import AsyncRelationshipManager
 from pydantic import BaseModel
 

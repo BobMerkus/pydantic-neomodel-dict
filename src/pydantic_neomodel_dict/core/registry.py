@@ -2,7 +2,7 @@ from threading import RLock
 from typing import Any, Callable, Dict, Tuple, Type, TypeVar
 
 from neomodel import StructuredNode
-from neomodel.async_.core import AsyncStructuredNode
+from neomodel.async_.node import AsyncStructuredNode
 from pydantic import BaseModel
 
 S = TypeVar("S")
